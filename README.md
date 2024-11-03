@@ -12,6 +12,8 @@ git config --global user.name "Your Name"
 ```
 - install vscode: [guide](vscode.md)
 
+- install driver: [guide](driver.md)
+- 
 - install conda: [guide](conda.md)
 
 - install docker: [guide](docker.md)
