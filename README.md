@@ -11,3 +11,9 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 - install vscode: [guide](vscode.md)
+
+- install conda: [guide](conda.md)
+
+- install docker: [guide](docker.md)
+
+- install IntelliJ: [guide](IntelliJ.md)
