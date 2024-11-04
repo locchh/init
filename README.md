@@ -19,3 +19,5 @@ git config --global user.name "Your Name"
 - install docker: [guide](docker.md)
 
 - install IntelliJ: [guide](IntelliJ.md)
+
+- You can install make with one of these commands: `sudo apt install make`
