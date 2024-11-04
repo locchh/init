@@ -10,14 +10,14 @@ Setup your machine
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
-- install vscode: [guide](vscode.md)
+- install vscode: [guide](docs/vscode.md)
 
-- install driver: [guide](driver.md)
+- install driver: [guide](docs/driver.md)
 
-- install conda: [guide](conda.md)
+- install conda: [guide](docs/conda.md)
 
-- install docker: [guide](docker.md)
+- install docker: [guide](docs/docker.md)
 
-- install IntelliJ: [guide](IntelliJ.md)
+- install IntelliJ: [guide](docs/IntelliJ.md)
 
 - You can install make with one of these commands: `sudo apt install make`
