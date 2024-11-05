@@ -1,4 +1,5 @@
 import os
+import sys
 from collections import defaultdict
 
 def count_file_types(directory):
@@ -15,7 +16,7 @@ def count_file_types(directory):
     return file_types_count
 
 # Specify the directory path
-directory_path = '/path/to/directory'
+directory_path = sys.argv[1] #'/path/to/directory'
 
 # Count file types and print results
 file_counts = count_file_types(directory_path)
