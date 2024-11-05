@@ -1,4 +1,5 @@
 import os
+import sys
 
 def generate_tree(path, prefix=""):
     # Get the list of items in the current directory
@@ -26,6 +27,6 @@ def generate_tree(path, prefix=""):
 
 if __name__ == "__main__":
     # Specify the directory you want to generate the tree for
-    root_directory = "path/to/your/directory"  # Change this to your directory
+    root_directory =  sys.argv[1] #"path/to/your/directory"  # Change this to your directory
     print(root_directory)
     generate_tree(root_directory)
