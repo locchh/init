@@ -16,14 +16,19 @@ To install the VMware Horizon Client on Ubuntu via the command line, you can fol
    sudo apt install ./VMware-Horizon-Client-*.deb
    ```
 
-3. **Resolve Dependencies** (if necessary):
+   or
+   ```bash
+   sudo dpkg -i VMware-Horizon-Client-2406-8.13.0-9995429239.x64.deb
+   ```
+
+4. **Resolve Dependencies** (if necessary):
    If any dependencies are missing, `apt` will let you know. You can install the missing dependencies with:
 
    ```bash
    sudo apt --fix-broken install
    ```
 
-4. **Launch VMware Horizon Client**:
+5. **Launch VMware Horizon Client**:
    After installation, you can start VMware Horizon Client from the application menu or by running:
 
    ```bash
