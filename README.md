@@ -21,3 +21,5 @@ git config --global user.name "Your Name"
 - install IntelliJ: [guide](docs/IntelliJ.md)
 
 - You can install make with one of these commands: `sudo apt install make`
+
+- install java: `sudo apt install default-jdk` (check `java --version`)
