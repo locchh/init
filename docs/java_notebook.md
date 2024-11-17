@@ -15,17 +15,7 @@ To run Java code in a Jupyter Notebook, you can use a kernel that supports Java.
      ```
    - If Java is not installed, you can download and install it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or install OpenJDK via your package manager (e.g., `apt-get install openjdk-11-jdk` on Ubuntu).
 
-3. **Install IJava Kernel**
-   The IJava kernel allows you to run Java code in Jupyter. You can install it by following these steps:
-   
-   - First, ensure you have `conda` installed. You can install Miniconda from [here](https://docs.conda.io/en/latest/miniconda.html) if needed.
-   
-   - Use `conda` to install the IJava kernel:
-     ```bash
-     conda install -c conda-forge java
-     ```
-
-4. **Install Jupyter-Kernel for Java**
+3. **Install Jupyter-Kernel for Java**
    To install IJava, you will use the `jupyter-kernelspec` tool:
    
    - Download and install the IJava kernel by running the following commands:
@@ -35,14 +25,14 @@ To run Java code in a Jupyter Notebook, you can use a kernel that supports Java.
      ./gradlew install
      ```
 
-5. **Start Jupyter Notebook**
+4. **Start Jupyter Notebook**
    - After installing the kernel, you can start Jupyter Notebook:
      ```bash
      jupyter notebook
      ```
    - Once Jupyter opens in your web browser, you should see the **Java** kernel as an option when creating a new notebook.
 
-6. **Run Java Code**
+5. **Run Java Code**
    - Now you can write and execute Java code directly in Jupyter cells.
 
    Example:
